@@ -1,9 +1,9 @@
 ---
 layout: post
-title: "A wonderful serenity has taken possession of my entire soul"
-date: 2015-11-12 16:39:18
+title: "When to use a Hash vs. Array"
+date: 2016-2-16 16:39:18
 comments: true
-description: "A wonderful serenity has taken possession of my entire soul"
+description: "Hash vs. Array"
 keywords: ""
 categories:
 - welcome
@@ -11,22 +11,17 @@ tags:
 - welcome
 ---
 
-A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart. I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
 
-I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
 
-I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
+It is important to preface these functions are collections of data and arrays are best for making raw, ordered lists while hashes are best with connecting pieces of information to each other. Arrays are like indexes and the way to reference each piece of information is by referencing the number in the array sequence. Arrays are simple given that a user knows each number of the indexed collection.
 
-When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and flies, then I feel the presence of the Almighty, who formed us in his own image, and the breath of that universal love which bears and sustains us, as it floats around us in an eternity of bliss; and then, my friend, when darkness overspreads my eyes, and heaven and earth seem to dwell in my soul and absorb its power, like the form of a beloved mistress, then I often think with longing, Oh, would I could describe these conceptions, could impress upon paper all that is living so full and warm within me, that it might be the mirror of my soul, as my soul is the mirror of the infinite God!
+Hashes are great for categorizing information and the chipotle order is a great example. Within the chipotle order assembly, you can choose the style of food, the meat, the toppings, and even the drinks. Rather than having an array that lists everything that is in styling, meats, toppings, and drinks, we, as programmers, can provide the information categorically so that the user better understands their order. Hypothetically, a chipotle order could limit the order to one style, one meat, three toppings, and one drink. That totals to six choices. With an array, the user could put this as an order and still meet the maximum order: burrito, tacos, salad, burrito bowl, cheese, and a drink. That right there is six choices. But, it does not make a real order because there was no structure to it. Of course, this is an exaggeration. No one wants a burrito, tacos, salad, and a burrito bowl with just cheese. But, that order is still a possibility if an array is used. Hashes fix the problem with the exaggerated order; they can enforce limits. Hashes can enforce the one style, one meat, three topping, one drink limit because the order becomes categorical.
 
-O my friend -- but it is too much for my strength -- I sink under the weight of the splendour of these visions!
+Arrays and hashes are both functional organization tools for a program. Though hashes are specific and can enforce limits, arrays are useful when working with speed. If chipotle created a dozen fixed orders that could not be changed, a hash would be unneeded. The most important distinction a programmer has to make is when information is categorical. If it is not, then a programmer should use an array. If it is categorical, hashes will better structure the information. The programmer must make sure to be aware of their intent and if they are, both arrays and hashes will serve them well.
 
-A wonderful serenity has taken possession of my entire soul, like these sweet mornings of spring which I enjoy with my whole heart.
+https://www.codecademy.com/forum_questions/52a69117282ae3085d000d63
 
-I am alone, and feel the charm of existence in this spot, which was created for the bliss of souls like mine.
+http://www.linuxtopia.org/online_books/programming_books/ruby_tutorial/Ruby.new_Arrays_and_Hashes.html
 
-I am so happy, my dear friend, so absorbed in the exquisite sense of mere tranquil existence, that I neglect my talents.
+https://teamtreehouse.com/community/when-do-you-use-an-array-versus-a-hash-in-ruby
 
-I should be incapable of drawing a single stroke at the present moment; and yet I feel that I never was a greater artist than now.
-
-When, while the lovely valley teems with vapour around me, and the meridian sun strikes the upper surface of the impenetrable foliage of my trees, and but a few stray gleams steal into the inner sanctuary, I throw myself down among the tall grass by the trickling stream; and, as I lie close to the earth, a thousand unknown plants are noticed by me: when I hear the buzz of the little world among the stalks, and grow familiar with the countless indescribable forms of the insects and
