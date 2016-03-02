@@ -11,7 +11,7 @@ tags:
 - welcome
 ---
 
-When to use a Hash vs Array
+
 
 It is important to preface these functions are collections of data and arrays are best for making raw, ordered lists while hashes are best with connecting pieces of information to each other. Arrays are like indexes and the way to reference each piece of information is by referencing the number in the array sequence. Arrays are simple given that a user knows each number of the indexed collection.
 
